@@ -345,9 +345,21 @@ a {
 .project {
   list-style: none;
 }
-.projet-item {
+.project-item {
+  width: 33.333%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
 }
-.projet-item-content {
+.project-item-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  border: 1px solid #eeeeee;
+}
+.project-item-content img {
+  max-width: 100%;
+  height: auto;
 }
 
 .project-title {
@@ -356,10 +368,15 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
+  padding-left: 24px;
+  margin-bottom: 4px;
 }
 .project-text {
   color: var(--main-text-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
