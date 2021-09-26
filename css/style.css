@@ -20,6 +20,9 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+a {
+  transition: 0.3s all ease;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -106,6 +109,9 @@ ul {
 .style-logo-white {
   color: #ffff;
 }
+.footer-logo {
+  margin-left: 0;
+}
 .contact-info {
   background-color: #2f303a;
 }
@@ -175,8 +181,11 @@ ul {
   padding: 10px 32px;
   border: none;
   outline: none;
+  transition: 0.3s all ease;
 }
-
+.hero-button:hover {
+  opacity: 0.8;
+}
 /*Секция Преимущества*/
 .advantages-container {
 }
@@ -259,10 +268,11 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  transition: 0.3s all ease;
+  transition: 0.5s all ease;
+  cursor: pointer;
 }
 .team-item-content:hover {
-  transform: translateY(-10px);
+  transform: translateY(-20px);
 }
 .team-item img {
   max-width: 100%;
