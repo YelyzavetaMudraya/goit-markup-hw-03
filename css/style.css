@@ -218,6 +218,9 @@ ul {
 }
 
 /*Секция Чем мы занимаемся*/
+.work-section {
+  padding-bottom: 94px;
+}
 .section-title {
   color: var(--h-text-color);
   font-weight: bold;
@@ -231,33 +234,31 @@ ul {
   list-style-type: none;
 }
 .work-item {
-  width: 33.333px;
+  width: 33.333%;
 }
-
+.work-item img {
+  width: 100%;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /*Секция Наша команда*/
 .dream-team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
-.team {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 0;
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
 .team-item {
   width: 25%;
   padding: 0 15px;
 }
-
+.team-item-content {
+  display: flex;
+}
 .team-item img {
   max-width: 100%;
   height: auto;
 }
-
 .team-title {
   color: var(--h-text-color);
   font-weight: 500;
