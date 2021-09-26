@@ -106,11 +106,17 @@ a {
 }
 
 /*Оформление футера*/
+.contact-info {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .style-logo-white {
   color: #ffff;
 }
 .footer-logo {
-  margin-left: 0;
+  display: block;
+  margin-right: 0;
+  margin-bottom: 20px;
 }
 .contact-info {
   background-color: #2f303a;
@@ -118,6 +124,7 @@ a {
 .address-studio {
   list-style-type: none;
   font-style: normal;
+  padding-left: 0;
 }
 .link-map {
   color: #ffff;
@@ -300,12 +307,19 @@ a {
 /*Страница портфолио*/
 .filter-buttons {
   list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.filter-buttons-item {
+  margin-right: 8px;
 }
 .filter-buttons-style:focus,
 .filter-buttons-style:hover {
   color: #ffff;
   background-color: var(--accent-text-color);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-buttons-style {
   font-family: inherit;
@@ -314,9 +328,15 @@ a {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*Галерея работ*/
+
 .project {
   list-style: none;
 }
