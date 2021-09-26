@@ -220,6 +220,7 @@ a {
 .advantages-item {
   padding-left: 15px;
   padding-right: 15px;
+  width: 25%;
 }
 .advantages-title {
   color: var(--h-text-color);
